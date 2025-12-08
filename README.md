@@ -32,20 +32,20 @@ Altair slc chapter I optimum binning in preparation for logistic regression
     VIII   METHOD  (program
              1   Contents of raw input data
              2   VALIDATE AND VERIFY RAW DATA. FIX ISSUES WITH RAW DATA
-             3   One missing vale
-                 Drop one to one variable. Very low caedinality variables.
+             3   One missing value
+                 Drop one-to-one variable. Very low cardinality variables.
                  Convert the many missing variable formats to just '?'
              4   Optimize variable length to the longest in the data
              5   Create Holdout and Training Tables
              6.  Bin the character variables in groups with common odds ratios
-                   Create normalized (long and skinny binned data wirh just 55 variables)
-                   Create denormalized (wide binned table with 30 variables)
-             7   Create excel character data summary bin report with chi square and  Mantel–Haenszel Stats
+                   Create normalized (long and skinny binned data with just 5 variables)
+                   Create a denormalized (wide binned table with 30 variables)
+             7   Create excel character data summary bin report with chi-square and  Mantel–Haenszel Stats
              8   Bin the numeric variables in groups with common odds ratios
-                   Create normalized (long and skinny binned table wirh just 55 variables)
-                   Create denormalized (wide binned table with 38 variables)
-             9   Create excel numeric data summary bin report with chi square and  Mantel–Haenszel Stats
-            10   Join raw training table, numeric binned data with character binned data for analys
+                   Create a normalized (long and skinny binned table with just 5 variables)
+                   Create a denormalized (wide binned table with 38 variables)
+             9   Create excel numeric data summary bin report with chi-square and  Mantel–Haenszel Stats
+            10   Join raw training table, numeric binned data with character binned data for analysis
     IX    CONTENTS OF FUTURE CHAPTERS
              Logistic diagnosis and related reports
              Fitting logistic regression on training data
@@ -55,7 +55,7 @@ Altair slc chapter I optimum binning in preparation for logistic regression
              lgs_mgmTopIndexValues      Highest Response Variables
              lgs_MgmTopTen              List of Top 12 scores
              lgs_MgmVenn n              Comparison of covariate contribution to top pcile
-             Final pdf presentation of results (slidedeck)
+             Final PDF presentation of results (slide deck)
 
 
 
@@ -70,7 +70,7 @@ Altair slc chapter I optimum binning in preparation for logistic regression
 
     https://github.com/rogerjdeangelis/utl-macros-used-in-many-of-rogerjdeangelis-repositories
       utlfkil
-      slc_optimalbin.sas  (also in this repor=)
+      slc_optimalbin.sas  (also in this repo)
 
     https://github.com/rogerjdeangelis/utl_optlen
       utloptlen.sas
